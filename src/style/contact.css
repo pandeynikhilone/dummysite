@@ -2,8 +2,12 @@
     height: 10vh;
 }
 
+.partners {
+    height: auto;
+}
+
 .contact__field {
-    height: 75vh;
+    height: 58vh;
     display: flex;
     align-items: center;
     justify-content: space-around;

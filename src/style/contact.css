@@ -25,6 +25,7 @@ form {
     border: 1px solid #000;
     background: #EEE;
     padding: 10px 5px;
+    resize: none;                  /* textarea */
 }
 .partners--button {
     width: 35.7375rem;
@@ -34,4 +35,3 @@ form {
 .contact__map {
     scale: .8;
 }
-

@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Work+Sans:ital,wght@0,500;1,500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+html, body {
+    height: auto;
+}
+
+.welcome {
+    height: 58vh;
+    background-color: #74C69D;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation__left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navigation--logo {
+    width: 3.375rem;
+}
+.navigation__left a:last-child {
+    font-size: 2rem;
+    padding: 0px 10px;
+}
+.navigation__link {
+    color: #FFF;
+    text-decoration: none;
+    font-family: "Work Sans";
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 125%; /* 1.5625rem */
+    padding: 13px 20px;
+}
+
+.welcome__body {
+    height: 35vh;
+    display: flex;
+    justify-content: space-around;
+    margin: 25px 0px;
+}
+.welcome__body--left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.welcome__body--left h6:first-child {
+    font-size: 1rem;
+    font-family: 'Work Sans';
+}
+[class^="welcome__body--"] {
+    color: #FFF;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125%; /* 3.125rem */
+    width: 26rem;
+    text-decoration: none;
+}
+.welcome__body--heading-1 {
+    letter-spacing: 0.3125rem;
+}
+.welcome__body--text {
+    width: 26rem;
+    color: rgba(255, 255, 255, 0.75);
+}
+.button {
+    font-family: 'Work Sans';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 60px;
+    background-color: #fff;
+    color: #111;
+    width: 0;
+    border-radius: 0.3125rem;
+}
+.welcome__body--image{
+    width: 28rem;
+}
+
+.partners {
+    height: 42vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 10px 0px;
+}
+[class^="partners--heading-"] {
+    color: var(--Color-Green-100, #74C69D);
+    font-family: "Work Sans";
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 125%; /* 1.25rem */
+    letter-spacing: 0.3125rem;
+}
+.partners--heading-2 {
+    font-size: 2rem;
+    color: #111;
+    font-weight: 600;
+}
+.partners--text {
+    color: var(--Text_Black, #000);
+    text-align: center;
+    font-family: "Work Sans";
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 125%; /* 1.5625rem */
+    width: 30rem;
+    height: 4rem;
+}
+.partners__brand {
+    display: flex;
+    gap: 50px;
+}
+.partners--button {
+    width: 0;
+    margin: 15px 0px;
+    padding: 14px 75px;
+    background-color: #111;
+    color: #fff;
+    white-space: nowrap;
+}
+
+.explore {
+    height: 50vh; 
+    align-items: center;
+    flex-direction: row-reverse;
+    margin: 25px 0px;
+}
+.explore__body--left {
+    gap: 16px;
+}
+[class^="explore__body--"] {
+    color: #111;
+    font-weight: 600;
+    line-height: 1.6rem;
+}
+
+.explore--two {
+    height: 50vh;
+}
+.welcome__body--image-two{
+    width: 25rem;
+}
+.explore__body-2--left {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.team {
+    height: 85vh;
+}
+[class^="card-"] {
+    width: 17.4375rem;
+    height: 18.6875rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.3125rem;
+    box-shadow: 3px 4px 12px 1px rgba(0, 0, 0, 0.25);
+    gap: 13px;
+}
+
+.social{
+    height: 15vh;
+    background: #74C69D;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 16rem;
+}
+.social--image {
+    padding: 0 5px;
+}
+.copyright-text {
+    color: #fff;
+    font-size: 1rem;
+    font-family: "Work Sans";
+}

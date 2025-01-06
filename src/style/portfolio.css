@@ -1,0 +1,17 @@
+.updated--welcome {
+    height: 10vh;
+}
+[class^="project-card-"] {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 37px;
+    margin: 34px 0px;
+}
+[class^="project-"] {
+    width: 35.5vw;
+}
+
+.partners {
+    height: auto;
+}

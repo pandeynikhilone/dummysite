@@ -60,12 +60,12 @@ html, body {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     margin: auto;
-    padding: 50px 70px;
-    justify-items: center;
+    padding: 50px 50px;
+    gap: 50px;
 }
 .frameOne__contentImage {
     margin: auto;
-    max-width: 70%;
+    max-width: 100%;
 }
 .frameOne__contentText {
     display: flex;
@@ -98,13 +98,11 @@ html, body {
     text-transform: uppercase;
 }
 .frameOne__contentText--heading {
-    font-size: 2vw;
-    width: 32vw;
+    font-size: 2rem;
     white-space: wrap;
     text-transform: capitalize;
 }
 .frameOne__contentText--text {
-    width: 29vw;
     color: var(--Color-White-75, rgba(255, 255, 255, 0.75));
     font-size: 0.9375rem;
     font-weight: 400;
@@ -132,7 +130,7 @@ html, body {
 }
 .frameTwo__label {
     color: var(--Color-Green-100, #74C69D);
-    font-size: 1.2vw;
+    font-size: 1.2rem;
     font-weight: 700;
     line-height: 125%; /* 1.25rem */
     letter-spacing: 0.3125rem;
@@ -140,18 +138,17 @@ html, body {
 }
 .frameTwo__heading {
     color: var(--Text_Black, #000);
-    font-size: 2.5vw;
+    font-size: 2rem;
     font-weight: 700;
     line-height: 125%; /* 3.125rem */
     text-transform: capitalize;
 }
 .frameTwo__text {
     color: var(--Text_Black, #000);
-    font-size: 1.25vw;
+    font-size: 1.25rem;
     text-align: center;
     font-weight: 400;
     line-height: 125%; /* 1.5625rem */
-    width: 50rem;
 }
 .frameTwo__btn {
     display: flex;
@@ -207,14 +204,10 @@ html, body {
 }
 @media (max-width: 1200px) {
     .frameOne__contentText--heading {
-        font-size: 2.4vw;
-        width: 40vw;
-    }
-    .frameOne__contentText--text {
-        width: 36vw;
+        font-size: 2rem;
     }
     .frameTwo__label {
-        font-size: 1.5vw;
+        font-size: 1.2rem;
     }
     .profile__card {
         grid-template-columns: repeat(2,1fr);
@@ -223,10 +216,10 @@ html, body {
 
 @media (max-width: 1024px) {
     .frameOne__contentImage {
-        max-width: 82%;
+        max-width: 100%;
     }
     .frameTwo__label {
-        font-size: 1.6vw;
+        font-size: 1.4rem;
     }
 }
 
@@ -260,39 +253,32 @@ html, body {
         text-align: left;
     }
     .frameTwo__heading {
-        font-size: 4vw;
+        font-size: 2.4rem;
     }
     .frameTwo__label {
-        font-size: 2vw;
+        font-size: 1rem;
     }
     .frameTwo__text {
-        font-size: 1.6vw;
-        width: 20.9375rem;
+        font-size: 1.2rem;
     }
-    .frameTwo__partners {
-        grid-template-columns: repeat(2, 1fr);
-    }
+    
     .profile__card {
         grid-template-columns: repeat(1,1fr);
     }
 }
 
 @media (max-width: 568px) {
-    .frameOne__contentImage {
-        max-width: 80%;
-    }
     .frameOne__contentText--heading {
-        font-size: 4vw;
+        font-size: 2rem;
     }
     .frameTwo__heading {
-        font-size: 4vw;
+        font-size: 1.8rem;
     }
     .frameTwo__label {
-        font-size: 3vw;
+        font-size: 1.1rem;
     }
     .frameTwo__text {
-        font-size: 2.1vw;
-        width: 20.9375rem;
+        font-size: 1.2rem;
     }
     .frameTwo__partners {
         grid-template-columns: repeat(1, 1fr);
@@ -301,5 +287,9 @@ html, body {
     [class ^= "frameTwo__partners--image-"] {
         width: auto;
         max-width: 70%;
+    }
+    footer {
+        display: flex;
+        flex-direction: column;
     }
 }
